@@ -23,7 +23,7 @@ function Signup(){
              return;
         }
 
-        Axios.post('http://localhost:3004/admin/signup', {
+        Axios.post('http://ec2-44-217-208-199.compute-1.amazonaws.com:3000/admin/signup', {
             firstname: firstname,
             lastname: lastname,
             username: username,

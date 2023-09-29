@@ -50,7 +50,7 @@ function AddCourse(){
     }
 
     const addCourse = () => {        
-        Axios.post('http://localhost:3004/admin/addcourse', 
+        Axios.post('http://ec2-44-217-208-199.compute-1.amazonaws.com:3000/admin/addcourse', 
         {
             title: newCourse.title,
             description: newCourse.description,
