@@ -24,7 +24,7 @@ const token = localStorage.getItem('token');
 useEffect(()=> {
   async function getUser(){
     try{
-      const response = await Axios.get('http://ec2-44-217-208-199.compute-1.amazonaws.com:3000/getUser', 
+      const response = await Axios.get('https://ec2-44-217-208-199.compute-1.amazonaws.com:3000/getUser', 
       {
           headers: {
               "Content-type": "application/json",

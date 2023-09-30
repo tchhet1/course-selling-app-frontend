@@ -25,7 +25,7 @@ function Login() {
              return;
         }
 
-        Axios.post('http://ec2-44-217-208-199.compute-1.amazonaws.com:3000/admin/login', {
+        Axios.post('https://ec2-44-217-208-199.compute-1.amazonaws.com:3000/admin/login', {
             username: username,
             password: password,
         })

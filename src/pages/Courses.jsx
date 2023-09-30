@@ -47,7 +47,7 @@ function Courses(){
 
     const getMyCourses = () => {
         
-        Axios.get(`http://ec2-44-217-208-199.compute-1.amazonaws.com:3000/admin/courses/${user.userId}`,
+        Axios.get(`https://ec2-44-217-208-199.compute-1.amazonaws.com:3000/admin/courses/${user.userId}`,
             {
                 headers: {
                     "Content-type": "application/json",
